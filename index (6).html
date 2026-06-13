@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eli — Développeur Fullstack</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <a href="https://wa.me/22898347018" target="_blank" class="whatsapp-floating" aria-label="Contact WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span>Contact</span>
+    </a>
+
+    <div class="nav-overlay" id="navOverlay">
+        <div class="overlay-menu">
+            <a href="#services" class="overlay-link">Mes Services</a>
+            <a href="#processus" class="overlay-link">Mon Processus</a>
+            <a href="#experience" class="overlay-link">Mon Parcours</a>
+            <a href="#projets" class="overlay-link">Mes Projets</a>
+            <a href="#temoignages" class="overlay-link">Témoignages</a>
+            <a href="#faq" class="overlay-link">FAQ</a>
+            <a href="#contact" class="overlay-link">Contact</a>
+            <a href="https://wa.me/22898347018" target="_blank" class="overlay-link wa-button-mobile">
+                <span>WhatsApp</span> <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </div>
+    </div>
+
+    <header class="hero-section">
+        <nav class="navbar">
+            <div class="logo">c'est moi</div>
+            
+            <div class="nav-links">
+                <a href="#services" class="nav-item">
+                    <div>
+                        <span class="nav-title">Mes Services <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></span>
+                        <span class="nav-desc">Ce que je vous propose</span>
+                    </div>
+                </a>
+                <a href="#projets" class="nav-item">
+                    <div>
+                        <span class="nav-title">Mes Projets <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></span>
+                        <span class="nav-desc">Toutes mes réalisations</span>
+                    </div>
+                </a>
+                <a href="https://wa.me/22898347018" target="_blank" class="nav-item contact-nav-item">
+                    <div>
+                        <span class="nav-title">Contactez-moi <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></span>
+                        <span class="nav-desc">Discuter du projet</span>
+                    </div>
+                </a>
+            </div>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </nav>
+
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="hand-emoji">👋</span>
+                <h1 class="hero-title">Salut ! Je suis Eli</h1>
+                <h2 class="hero-subtitle">Développeur Fullstack <span class="sparkle-badge">✦</span></h2>
+                
+                <p class="hero-text">
+                    Étudiant passionné et développeur indépendant. Je transforme vos idées complexes en plateformes web minimalistes, rapides et parfaitement structurées.
+                </p>
+                
+                <ul class="hero-bullets">
+                    <li><i class="fa-solid fa-check"></i> Code propre, performant et réactif</li>
+                    <li><i class="fa-solid fa-check"></i> Expériences utilisateur optimisées</li>
+                    <li><i class="fa-solid fa-check"></i> Suivi complet et transparent</li>
+                </ul>
+
+                <div class="hero-cta">
+                    <a href="https://wa.me/22898347018" target="_blank" class="btn-black-cta">Discutons</a>
+                    <a href="#" class="btn-outline-cta">Télécharger mon CV <i class="fa-solid fa-arrow-down"></i></a>
+                </div>
+            </div>
+
+            <div class="hero-image-area">
+                <div class="hello-sticker">Hello</div>
+                <div class="image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=600" alt="Portrait d'Eli" class="hero-profile-img">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="ticker-ribbon">
+        <div class="ticker-track">
+            <span>✦ WEB DESIGN</span><span>✦ DESIGN D'APPLICATIONS</span><span>✦ DÉVELOPPEMENT</span><span>✦ MAQUETTAGE INTERFACE</span><span>✦ DÉVELOPPEMENT DE PLATEFORME</span>
+            <span>✦ WEB DESIGN</span><span>✦ DESIGN D'APPLICATIONS</span><span>✦ DÉVELOPPEMENT</span><span>✦ MAQUETTAGE INTERFACE</span><span>✦ DÉVELOPPEMENT DE PLATEFORME</span>
+        </div>
+    </div>
+
+    <div class="sub-socials">
+        <div class="social-left">
+            <a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i> LINKEDIN</a>
+            <a href="#" target="_blank"><i class="fa-brands fa-github"></i> GITHUB</a>
+        </div>
+        <div class="social-right">
+            <a href="https://wa.me/22898347018" target="_blank"><i class="fa-brands fa-whatsapp"></i> DISCUTER SUR WHATSAPP</a>
+        </div>
+    </div>
+
+    <section id="services" class="services-section">
+        <div class="section-intro reveal-item">
+            <div class="intro-left">
+                <span class="sub-tag">MES SERVICES ?</span>
+                <h2 class="main-section-title">CE QUE JE VOUS<br>PROPOSE</h2>
+            </div>
+            <div class="intro-right">
+                <p>Développement d'architectures web robustes et d'interfaces léchées, adaptées aux exigences des créateurs et des entreprises modernes.</p>
+                <a href="#contact" class="btn-all-services">TOUS LES SERVICES</a>
+            </div>
+        </div>
+
+        <div class="services-layout">
+            <div class="scroll-vertical-label">
+                <span>DÉFILER VERS LE BAS</span>
+                <div class="scroll-arrow-circle"><i class="fa-solid fa-arrow-down"></i></div>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card dark-card reveal-item">
+                    <div class="card-top">
+                        <div class="card-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <h3>CONCEPTION UI/UX CRÉATIVE</h3>
+                    </div>
+                    <a href="https://wa.me/22898347018" target="_blank" class="card-link">EN SAVOIR PLUS <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card light-card reveal-item">
+                    <div class="card-top">
+                        <div class="card-icon"><i class="fa-solid fa-database"></i></div>
+                        <h3>DÉVELOPPEMENT FULLSTACK</h3>
+                    </div>
+                    <a href="https://wa.me/22898347018" target="_blank" class="card-link">EN SAVOIR PLUS <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card light-card reveal-item">
+                    <div class="card-top">
+                        <div class="card-icon"><i class="fa-solid fa-bolt"></i></div>
+                        <h3>STRATÉGIE & ARCHITECTURE WEB</h3>
+                    </div>
+                    <a href="https://wa.me/22898347018" target="_blank" class="card-link">EN SAVOIR PLUS <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="processus" class="process-section">
+        <div class="section-center-title reveal-item">
+            <div class="deco-dot"></div>
+            <h2>MON PROCESSUS</h2>
+            <p>Une approche étape par étape claire et structurée pour garantir la réussite de votre projet numérique.</p>
+        </div>
+
+        <div class="process-grid">
+            <div class="process-step reveal-item">
+                <div class="step-num">01</div>
+                <h3>Découverte & Stratégie</h3>
+                <p>Analyse approfondie de vos besoins, définition du cahier des charges et étude des flux d'utilisateurs clés.</p>
+            </div>
+            <div class="process-step reveal-item">
+                <div class="step-num">02</div>
+                <h3>Design & Maquetttage</h3>
+                <p>Création d'interfaces web interactives et modernes basées sur un design system épuré et minimaliste.</p>
+            </div>
+            <div class="process-step reveal-item">
+                <div class="step-num">03</div>
+                <h3>Code & Intégration</h3>
+                <p>Développement fullstack robuste avec une attention millimétrée portée aux performances et à la réactivité.</p>
+            </div>
+            <div class="process-step reveal-item">
+                <div class="step-num">04</div>
+                <h3>Tests & Lancement</h3>
+                <p>Contrôle qualité rigoureux sur tous les types d'écrans et mise en production sécurisée sur serveurs cloud.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience-section">
+        <div class="section-center-title reveal-item">
+            <div class="deco-dot"></div>
+            <h2>MON PARCOURS</h2>
+            <p>Mon parcours d'apprentissage et mes contributions techniques en tant que développeur.</p>
+        </div>
+
+        <div class="experience-table">
+            <div class="exp-row reveal-item">
+                <div class="exp-col-id">1</div>
+                <div class="exp-col-main">
+                    <h3>Étudiant en Développement Web Fullstack</h3>
+                    <p>Apprentissage et maîtrise des frameworks modernes (React, Node.js, Écosystème Cloud)</p>
+                </div>
+                <div class="exp-col-duration">DURÉE - EN COURS</div>
+            </div>
+            <div class="exp-row reveal-item">
+                <div class="exp-col-id">2</div>
+                <div class="exp-col-main">
+                    <h3>Développeur Freelance</h3>
+                    <p>Conception d'applications sur-mesure et de plateformes numériques / solutions de recharge</p>
+                </div>
+                <div class="exp-col-duration">MISSIONS EN REMOTE</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projets" class="case-study-section">
+        <div class="section-center-title reveal-item">
+            <div class="deco-dot"></div>
+            <h2>PROJETS PHARES</h2>
+            <p>Une plongée dans mes projets récents, de la phase de concept à la mise en production.</p>
+        </div>
+
+        <div class="project-row reveal-item">
+            <div class="project-preview-box">
+                <div class="inner-mock bg-light-grey"><span>Interface UI Minimaliste</span></div>
+                <div class="inner-mock bg-pure-white"><span>Flux Utilisateur Fluide</span></div>
+            </div>
+            <div class="project-details-box">
+                <span class="project-tag">WEB DESIGN</span>
+                <h3>Design web pour des plateformes et solutions FinTech.</h3>
+                <a href="https://wa.me/22898347018" target="_blank" class="project-action-link">Voir les détails <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+            </div>
+        </div>
+
+        <div class="project-row reverse-row reveal-item">
+            <div class="project-details-box">
+                <span class="project-tag">WEB DESIGN</span>
+                <h3>Site web épuré conçu pour propulser les startups.</h3>
+                <a href="https://wa.me/22898347018" target="_blank" class="project-action-link">Voir les détails <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+            </div>
+            <div class="project-preview-box">
+                <div class="inner-mock-full">
+                    <span>Comment lancer et faire évoluer une activité en ligne performante.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="temoignages" class="testimonials-section">
+        <div class="section-center-title reveal-item">
+            <div class="deco-dot"></div>
+            <h2>AVIS CLIENTS</h2>
+            <p>Ce que disent les partenaires et clients de mes interventions techniques et de ma réactivité.</p>
+        </div>
+
+        <div class="testimonials-grid">
+            <div class="testimonial-card reveal-item">
+                <div class="testi-stars">★★★★★</div>
+                <p class="testi-text">"Eli a su comprendre immédiatement l'architecture complexe de notre plateforme de recharge. Son code est propre, bien documenté et les délais ont été parfaitement respectés."</p>
+                <div class="testi-author">
+                    <strong>Marc A.</strong>
+                    <span>Directeur Tech — FinTech Solution</span>
+                </div>
+            </div>
+            <div class="testimonial-card reveal-item">
+                <div class="testi-stars">★★★★★</div>
+                <p class="testi-text">"Un travail de maquettage et d'intégration remarquable. L'interface de notre site internet est minimaliste, rapide sur mobile et plaît énormément à nos utilisateurs."</p>
+                <div class="testi-author">
+                    <strong>Sophie K.</strong>
+                    <span>Fondatrice — Studio Agence</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="metrics-bar reveal-item">
+        <div class="metric-block">
+            <h2 class="counter" data-target="15">0</h2>
+            <p>Projets Terminés</p>
+        </div>
+        <div class="metric-block">
+            <h2 class="counter" data-target="100">0</h2>
+            <p>% Clients Satisfaits</p>
+        </div>
+        <div class="metric-block">
+            <h2 class="counter" data-target="100">0</h2>
+            <p>% Travail à Distance</p>
+        </div>
+    </div>
+
+    <section id="faq" class="faq-section">
+        <div class="section-center-title reveal-item">
+            <div class="deco-dot"></div>
+            <h2>QUESTIONS FRÉQUENTES</h2>
+            <p>Des réponses claires aux questions que vous vous posez avant de démarrer notre collaboration.</p>
+        </div>
+
+        <div class="faq-accordion-container">
+            <div class="faq-item reveal-item">
+                <button class="faq-question">Quels sont vos langages et frameworks de prédilection ? <i class="fa-solid fa-plus"></i></button>
+                <div class="faq-answer">
+                    <p>Je travaille principalement avec l'écosystème JavaScript moderne : React pour le frontend, Node.js pour les architectures backend, combinés à des bases de données relationnelles ou cloud performantes.</p>
+                </div>
+            </div>
+            <div class="faq-item reveal-item">
+                <button class="faq-question">Proposez-vous un suivi après la livraison du projet ? <i class="fa-solid fa-plus"></i></button>
+                <div class="faq-answer">
+                    <p>Oui, absolument. Chaque projet inclut une période de suivi technique gratuite pour garantir la stabilité, corriger d'éventuels ajustements et assurer une prise en main fluide de l'outil.</p>
+                </div>
+            </div>
+            <div class="faq-item reveal-item">
+                <button class="faq-question">Comment se déroule la communication pendant la mission ? <i class="fa-solid fa-plus"></i></button>
+                <div class="faq-answer">
+                    <p>La transparence est ma priorité. Nous communiquons de manière structurée par WhatsApp pour les échanges rapides et via des points d'étape réguliers pour valider l'avancement des maquettes et du code.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section reveal-item">
+        <div class="contact-heading">
+            <h2>Dites-moi tout sur<br><span>votre idée</span></h2>
+            <p>Remplissez les détails ci-dessous pour lancer automatiquement notre discussion sur WhatsApp.</p>
+        </div>
+
+        <form class="interactive-form" id="waProjectForm">
+            <div class="input-grid-row">
+                <div class="input-wrapper">
+                    <label>Votre Nom :*</label>
+                    <input type="text" id="waName" required placeholder="Bonjour...">
+                </div>
+                <div class="input-wrapper">
+                    <label>Votre Email :*</label>
+                    <input type="email" id="waEmail" required placeholder="Où puis-je vous répondre ?">
+                </div>
+            </div>
+            <div class="input-wrapper full-width-input">
+                <label>Nom de l'entreprise ou du projet</label>
+                <input type="text" id="waCompany" placeholder="Votre structure ou site web actuel ?">
+            </div>
+
+            <div class="input-wrapper full-width-input">
+                <label>De quoi avez-vous besoin ?*</label>
+                <div class="mind-tags">
+                    <span class="mind-tag active-tag" data-value="Site Vitrine / Agence">Site Internet</span>
+                    <span class="mind-tag" data-value="Application Web / SaaS">Application Web</span>
+                    <span class="mind-tag" data-value="Plateforme Personnalisée">Plateforme Web</span>
+                    <span class="mind-tag" data-value="Maquette UI/UX">Maquette Interface</span>
+                    <span class="mind-tag" data-value="Maintenance & Optimisation">Maintenance</span>
+                </div>
+            </div>
+
+            <div class="form-action-line">
+                <button type="submit" class="btn-submit-form">Envoyer</button>
+                <span class="form-guarantee">Je vous recontacte en moins de 24 heures</span>
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer-area">
+        <div class="footer-links">
+            <a href="#">Dribbble</a><a href="#">Linkedin</a><a href="#">Instagram</a><a href="#">Behance</a>
+        </div>
+        <div class="footer-credits">
+            Portfolio personnel©2026
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
